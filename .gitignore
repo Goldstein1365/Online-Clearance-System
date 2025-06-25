@@ -1,0 +1,15 @@
+/uploads/*
+!/uploads/.gitignore
+/database/ocs.sql
+/includes/db.php
+*.log
+.env
+config.php
+config/
+*.bak
+*.tmp
+*.swp
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

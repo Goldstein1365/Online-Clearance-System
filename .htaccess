@@ -1,0 +1,10 @@
+ErrorDocument 404 /OCS1/404.php
+
+# Security: Block access to sensitive files
+<FilesMatch "\.(env|sql|bak|log|ini|sh|swp|tmp)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Prevent directory listing
+Options -Indexes
